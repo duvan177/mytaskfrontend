@@ -1,9 +1,8 @@
 import React from 'react';
+import Root from './routers/routes'
 function App() {
   return (
-    <div className="App">
-     <h1>this nuestro proyect</h1>
-    </div>
+  <Root />
   );
 }
 
