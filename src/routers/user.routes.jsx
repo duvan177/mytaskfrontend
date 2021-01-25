@@ -1,9 +1,5 @@
 import { Route, Switch  } from "react-router-dom";
-import {SignUp} from '../pages/index'
-
-const Login = () => <h1>THIS LOGIN</h1>
-
-
+import {SignUp , Login} from '../pages'
 
 export default function userRoutes() {
 
@@ -23,7 +19,7 @@ export default function userRoutes() {
     return (
         <Switch>
             {
-                ROUTES.map(item => <Route exact  {...item} />)
+                ROUTES.map((item , index) => <Route key={`${index}`} exact  {...item} />)
             }
     
         </Switch>
