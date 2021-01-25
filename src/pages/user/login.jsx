@@ -1,9 +1,13 @@
 import React from 'react'
+import {Container , Grid , Card, CardActions, CardContent } from '@material-ui/core';
 
 export default function login() {
     return (
-        <div>
-            <h1>Login</h1>
-        </div>
+
+        <Container maxWidth="sm">
+            <Grid item xs={12}>
+
+            </Grid>
+        </Container>
     )
 }
