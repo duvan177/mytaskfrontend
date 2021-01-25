@@ -1,8 +1,8 @@
 import { Route, Switch  } from "react-router-dom";
-
+import {SignUp} from '../pages/index'
 
 const Login = () => <h1>THIS LOGIN</h1>
-const Register = () => <h1>THIS Register</h1>
+
 
 
 export default function userRoutes() {
@@ -16,7 +16,7 @@ export default function userRoutes() {
         {
             private:false,
             path:'/register',
-            component: Register
+            component: SignUp
         }
 ]
 
