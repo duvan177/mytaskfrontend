@@ -1,4 +1,4 @@
-import { Route, Switch ,useHistory } from "react-router-dom";
+import { Route, Switch  } from "react-router-dom";
 
 
 const Login = () => <h1>THIS LOGIN</h1>
@@ -11,7 +11,7 @@ export default function userRoutes() {
         {
             private:false,
             path:'/login',
-            component: Login
+            component: Login 
         },
         {
             private:false,
